@@ -1,0 +1,56 @@
+.text-editor__body {
+  margin: 0 auto;
+  padding: 30px;
+  max-width: 780px;
+  min-height: 600px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  text-align: left;
+  cursor: text;
+}
+
+.text-editor__header {
+  background-color: #fff;
+  height: 68px;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.3);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.text-editor {
+  background-color: #f6f6f6;
+  padding-top: 100px;
+  padding-bottom: 30px;
+}
+
+/* Content Styles */
+.blockquote {
+  color: #999;
+  font-family: 'Hoefler Text', Georgia, serif;
+  font-style: italic;
+  text-align: center;
+}
+
+
+.text-editor .public-DraftStyleDefault-pre {
+  background-color: #f2f2f2;
+  padding: 15px;
+}
+
+.code-block {
+  margin: 0;
+}
+
+.text-align_left {
+  text-align: left;
+}
+
+.text-align_right {
+  text-align: right;
+}
+
+.text-align_center {
+  text-align: center;
+}
